@@ -1,5 +1,5 @@
 const numbers = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"];
- let arrat = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"]
+ const input = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"]
 
  const input = parseInt(userInput);
 
@@ -9,6 +9,20 @@ const numbers = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"];
     array.push(i);
  }
  return array;
+}
+
+
+
+
+function numbers(input) {
+  if (input.includes("1")
+  return "Beep!"
+
+  2 
+  Boop!
+
+  3 
+  Won't you be my neighbor??
 }
 
 
