@@ -6,3 +6,9 @@ array.forEach(element => {
 });
 
 }
+
+function words(word) {
+array.forEach(element)
+
+
+}
