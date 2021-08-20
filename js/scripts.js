@@ -1,7 +1,5 @@
 const numbers = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"];
- const input = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"]
-
- const input = parseInt(userInput);
+ const userInput = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"];
 
  function inputArray(input) {
    const array = []

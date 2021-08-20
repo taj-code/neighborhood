@@ -1,17 +1,17 @@
 ```javascript 
 
 test: "read numbers"
-code: 
+code: const userInput
 Expected OutPut: 1
 
-test: "read multiple numbers"
-code:
+test: "read number 1 return'Beep!!"
+code:input = 1(input)
 Expected OutPut:
 
-test: "do not read numbers"
-code:
+test: "read number 2 return 'Boop!!'"
+code:input = 2(input)
 Expected OutPut:
 
-test: "recognizes symbols"
-code:
+test: "read number 3 return 'Won't you be my neighbor??"
+code:input = 3(input)
 Expected OutPut:
