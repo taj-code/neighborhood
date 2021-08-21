@@ -17,10 +17,10 @@ function numbers(input) {
     return "Boop!!";
   } else if (input.includes("3"));
 
-  return "Won't you be my neighbor??"
-}
-  return input;
-}
+  return "Won't you be my neighbor??";
+};
+  return inputArray
+};
 
 
 

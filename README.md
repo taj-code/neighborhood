@@ -1,7 +1,7 @@
 ```javascript 
 
 test: "read numbers"
-code: const userInput
+code: userInput
 Expected OutPut: 1
 
 test: "read number 1 return'Beep!!"
