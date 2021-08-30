@@ -1,6 +1,6 @@
-# _my-info_
+# _Neighborhood_
 
-#### _This website is about Tajo Fisher and some information as well as some coding work done with Epicodus._
+#### _This website takes numbers from a user that inputs them and will give a result containing more numbers or a selection of three words bases upon certain numbers used._
 
 #### By _**Tajo Fisher**_
 
@@ -12,21 +12,23 @@
 
 ## Description
 
-* A website containing information on Tajo Fisher
+* A website that takes input from a user to then give back a result.
 
 ## Known Bugs 
 
-* _No Known issues_ 
+* _No Known issues besides that the website does not function as it is suppesed to unfortunatley.
 
 ## License
 
 * [MIT](link)
 * copyright(c) 2021
-* [Click here](link) to check out my-info website
+* [Click here](https://github.com/taj-code/neighborhood) to check out my website
 
 ## Contact Information 
 
 Tajo Fisher _tajofisher4@gmail.com_
+
+
 ```javascript 
 
 test: "read numbers"
@@ -48,3 +50,12 @@ Expected OutPut:
 test: "finish
 code:finish.show
 expected Output: 
+
+
+
+
+
+Describe: beepBoop()
+Test: "It should return an array with a 0 if the number 0 is inputted"
+Code: beepBoop(0);
+Expected Output: 0
