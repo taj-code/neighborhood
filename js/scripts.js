@@ -22,6 +22,7 @@ function numbers(input) {
   return inputArray
 };
 
+function finish(input)
 
 
 // function firstNumber(number) {
