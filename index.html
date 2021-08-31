@@ -13,26 +13,23 @@
     <h1>Welcome to Mr. Roboger's Neighborhood!</h1>
   </div>
   <div class="container">
-    <h2>Input text below</h2>
+    <h3>Select number below</h3>
   <form id="words">
     <div class="form-group">
-      <p>Input a text passage:</p>
-      <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
-      <p>Optionally enter a word to count the number of times it occurs in the passage:</p>
-      <input type="text" id="word" name="word" class="form-control">
-      <br>
+      <form>
+        <input type="number" min="1" max="100">
+      </form>
       <button type="submit" class="btn btn-success">Submit</button>
     </div>
   </form>
-  <p>Total: <span id="total"></span></p>
-  <br>
-  <p>Selected Word Count: <span id="selected-count"></span></p>
-  <span id="bolded-passage"></span>
+</div>
+<div id="final">
+  Number: <span class="userInput"></span><br>
 </div>
 
 <h3>Thank you for participating!</h3>
 
-  <h2>Leave input</h2>
+  <h3>Leave input</h3>
   <textarea name="text" id="input" cols="30" rows="5"></textarea>
   <button>BYE</button>
 </body>

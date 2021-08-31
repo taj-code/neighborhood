@@ -1,3 +1,4 @@
+//Business Logic
 const numbers = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"];
  const userInput = ["1, 2, 3, 4, 5, 6, 7, 8, 9, 10"];
 
@@ -41,3 +42,16 @@ function finish(input)
 
 
 function ()
+
+
+//UI Logic
+
+$(function(){
+  var $userInput = $(".1-100");
+  for (i=1;i<=100;i++){
+      $userInput.append($('<option></option>').val(i).html(i))
+  }
+});​
+
+if (userInput === "10") {
+  $("#final").show();
